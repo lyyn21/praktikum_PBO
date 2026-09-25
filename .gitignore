@@ -40,3 +40,6 @@ desktop.ini
 .project
 .classpath
 .settings/
+/modul-02-intro/project/mavenproject1/target/
+/modul-02-intro/project/RekapNilai/target/
+/modul-02-intro/project/modul_02_intro_project/target/
