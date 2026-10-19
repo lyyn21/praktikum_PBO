@@ -1,10 +1,12 @@
 package Main;
 import guided.agregasi.Jurusan;
 import guided.agregasi.Mahasiswa;
+import guided.komposisi.Komputer;
 
 public class main {
     public static void main(String[] args) {
         runGuided2();
+        runGuided3();
     }
 
     public static void runGuided2() {
@@ -17,5 +19,11 @@ public class main {
         prodi.addMahasiswa(m2);
 
         prodi.displayMahasiswa();
+    }
+
+
+    public static void runGuided3(){
+        Komputer pc = new Komputer("Intel Core i5",3200,"LG 24 Inch","Logitech","Wireless");
+        pc.displaySpecKomputer();
     }
 }
